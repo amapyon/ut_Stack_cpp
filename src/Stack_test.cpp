@@ -30,12 +30,14 @@ TEST(StackTest, pushPushPop) {
 TEST(StackTest, popWhenEmpty) {
 	// スタックが空の状態で、pop()メソッドを実行した時に
 	// EmptyException例外が発生するかを確認する
+	// ToDo: 演習
 }
 
 TEST(StackTest, pushWhenFull) {
 	// スタックに最大数の値が積まれている状態で、
 	// push()メソッドを実行した時に
 	// OverflowException例外が発生するかを確認する
+	// ToDo: 演習
 }
 
 TEST(StackTest, isEmpty) {
